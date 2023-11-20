@@ -1,0 +1,27 @@
+.button {
+	padding: 1rem 3rem;
+
+	background-color: var(--white);
+	border-radius: 5px;
+
+	font-weight: 700;
+
+	transition: all 0.3s;
+  
+  display: inline-block;
+}
+
+.button:hover {
+	opacity: 0.8;
+  cursor: pointer;
+}
+
+.add{
+  margin-right: 6rem;
+  color: var(--green);
+}
+
+.remove{
+  color: var(--red);
+}
+
